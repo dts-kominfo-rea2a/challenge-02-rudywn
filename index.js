@@ -67,11 +67,11 @@ function lakukanLooping(arrPegawai) {
 
   let komentar = null;
   if(jumlahPria > jumlahWanita) {
-    komentar = "Jumlah pria lebih banyak dari wanita.";
+    komentar = "Jumlah Pria lebih banyak dari Wanita";
   } else if (jumlahPria < jumlahWanita) {
-    komentar = "Jumlah wanita lebih banyak dari pria.";
+    komentar = "Jumlah Wanita lebih banyak dari Pria";
   } else {
-    komentar = "Jumlah pria dan wanita berimbang.";
+    komentar = "Jumlah Pria dan Wanita berimbang";
   }
 
   // ! JANGAN DIMODIFIKASI
